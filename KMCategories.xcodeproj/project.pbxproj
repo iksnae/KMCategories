@@ -19,6 +19,9 @@
 		E9303CC9191678260002B434 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E9303CB1191678260002B434 /* UIKit.framework */; };
 		E9303CD1191678260002B434 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E9303CCF191678260002B434 /* InfoPlist.strings */; };
 		E9303CD3191678260002B434 /* KMCategoriesTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E9303CD2191678260002B434 /* KMCategoriesTests.m */; };
+		E9303CE21916783F0002B434 /* UIColor+Extras.m in Sources */ = {isa = PBXBuildFile; fileRef = E9303CDD1916783F0002B434 /* UIColor+Extras.m */; };
+		E9303CE31916783F0002B434 /* UIImage+Extras.m in Sources */ = {isa = PBXBuildFile; fileRef = E9303CDF1916783F0002B434 /* UIImage+Extras.m */; };
+		E9303CE41916783F0002B434 /* UIView+Extras.m in Sources */ = {isa = PBXBuildFile; fileRef = E9303CE11916783F0002B434 /* UIView+Extras.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +51,13 @@
 		E9303CCE191678260002B434 /* KMCategoriesTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "KMCategoriesTests-Info.plist"; sourceTree = "<group>"; };
 		E9303CD0191678260002B434 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		E9303CD2191678260002B434 /* KMCategoriesTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KMCategoriesTests.m; sourceTree = "<group>"; };
+		E9303CDC1916783F0002B434 /* UIColor+Extras.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Extras.h"; sourceTree = "<group>"; };
+		E9303CDD1916783F0002B434 /* UIColor+Extras.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Extras.m"; sourceTree = "<group>"; };
+		E9303CDE1916783F0002B434 /* UIImage+Extras.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Extras.h"; sourceTree = "<group>"; };
+		E9303CDF1916783F0002B434 /* UIImage+Extras.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Extras.m"; sourceTree = "<group>"; };
+		E9303CE01916783F0002B434 /* UIView+Extras.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Extras.h"; sourceTree = "<group>"; };
+		E9303CE11916783F0002B434 /* UIView+Extras.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Extras.m"; sourceTree = "<group>"; };
+		E9303CE51916784D0002B434 /* KMCategories.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KMCategories.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +119,13 @@
 			children = (
 				E9303CBC191678260002B434 /* KMAppDelegate.h */,
 				E9303CBD191678260002B434 /* KMAppDelegate.m */,
+				E9303CE51916784D0002B434 /* KMCategories.h */,
+				E9303CDC1916783F0002B434 /* UIColor+Extras.h */,
+				E9303CDD1916783F0002B434 /* UIColor+Extras.m */,
+				E9303CDE1916783F0002B434 /* UIImage+Extras.h */,
+				E9303CDF1916783F0002B434 /* UIImage+Extras.m */,
+				E9303CE01916783F0002B434 /* UIView+Extras.h */,
+				E9303CE11916783F0002B434 /* UIView+Extras.m */,
 				E9303CBF191678260002B434 /* Images.xcassets */,
 				E9303CB4191678260002B434 /* Supporting Files */,
 			);
@@ -240,8 +257,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E9303CE21916783F0002B434 /* UIColor+Extras.m in Sources */,
 				E9303CBE191678260002B434 /* KMAppDelegate.m in Sources */,
+				E9303CE31916783F0002B434 /* UIImage+Extras.m in Sources */,
 				E9303CBA191678260002B434 /* main.m in Sources */,
+				E9303CE41916783F0002B434 /* UIView+Extras.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
