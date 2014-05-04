@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = 'KMCategories'
-  s.version      = '0.1'
+  s.version      = '1.0'
   s.license      =  { :type => 'Apache License, Version 2.0', :text => <<-LICENSE
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.
@@ -26,7 +26,7 @@ DESC
 # Source Info
   s.platform     =  :ios, '7.0'
   s.source       =  {:git => 'https://devious.repositoryhosting.com/git/devious/kmcategories.git',
-  :tag => '0.1' }
+  :tag => '1.0' }
   s.source_files = 'KMCategories'
   s.framework    =  'CoreGraphics'
 
